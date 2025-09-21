@@ -199,5 +199,7 @@ img, iframe {
     display: inline-block;   /* faz o <p> respeitar alinhamento horizontal */
     text-align: justify;
     text-indent: 0px;
+    padding: 0px;
+    margin:0px;
 }
 }
