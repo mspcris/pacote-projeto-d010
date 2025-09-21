@@ -153,7 +153,6 @@ img, iframe {
     text-decoration: underline;
     color: black;
 }
-
 /* ======== COPYRIGHT ======== */
 #copyright {
     text-align: center;
@@ -161,6 +160,11 @@ img, iframe {
     color: #eee;
     padding: 10px;
     font-size: 0.9em;
+}
+#copyright p{
+    display: inline-block;   /* faz o <p> respeitar alinhamento horizontal */
+    text-align: center;
+    text-indent: 0px;
 }
 #copyright a {
     color: lightgreen;
@@ -170,7 +174,7 @@ img, iframe {
     text-decoration: underline;
 }
 
-/* ======== RESPONSIVIDADE ======== */
+/* ======== RESPONSIVIDADE PARA TELAS PEQUENAS (CELULARES)======== */
 @media (max-width: 768px) {
     #h1_reader {
         font-size: 2em;
@@ -191,4 +195,9 @@ img, iframe {
         margin: 10px;
         padding: 15px;
     }
+    #copyright p{
+    display: inline-block;   /* faz o <p> respeitar alinhamento horizontal */
+    text-align: justify;
+    text-indent: 0px;
+}
 }
