@@ -9,7 +9,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
+:root{
+    --cor0:var(#ebe5c5);
+    --cor1:var(#83e1ad);
+    --cor2:var(#3ddc84);
+    --cor3:var(#2fa866);
+    --cor4:var(#1a5c37);
+    --cor5:var(#063d1e);
+}
 /* ======== BASE ======== */
 body {
     font-family: Arial, Helvetica, sans-serif;
